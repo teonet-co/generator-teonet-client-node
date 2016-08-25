@@ -21,7 +21,7 @@ try {
 		    }
 		}
 		else if(status === 1) {
-		    connector.send(connector.CMD_L_L0_CLIENTS, 'teotest');
+		    connector.send(connector.CMD_L_L0_CLIENTS, 'teo-test', 'JSON:');
 		}
 	    } catch (e) {
 		console.log(counter, e);

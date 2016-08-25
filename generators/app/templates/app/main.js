@@ -10,13 +10,13 @@ try {
 
     console.log('Is Connected:', connector.is_connected());
 
-    snd = connector.send(connector.CMD_L_PEERS, 'teotest');
+    snd = connector.send(connector.CMD_L_PEERS, 'teo-test');
     console.log('CMD_L_PEERS Sent:', snd);
 
-    snd = connector.send(connector.CMD_L_L0_CLIENTS, 'teotest');
+    snd = connector.send(connector.CMD_L_L0_CLIENTS, 'teo-test');
     console.log('CMD_L_L0_CLIENTS Sent:', snd);
 
-    snd = connector.send(connector.CMD_L_ECHO, 'teotest', 'hello');
+    snd = connector.send(connector.CMD_L_ECHO, 'teo-test', 'hello');
     console.log('CMD_L_ECHO Sent:', snd);
 
     connector.sleep(.5);
@@ -30,7 +30,7 @@ try {
 //    console.log('Recv:', connector.recv());
     connector.disconnect();
 //    connector.disconnect();
-//    snd = connector.send(connector.CMD_L_ECHO, 'teotest', 'hello');
+//    snd = connector.send(connector.CMD_L_ECHO, 'teo-test', 'hello');
 
 }
 catch (err) {
