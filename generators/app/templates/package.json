@@ -1,0 +1,25 @@
+{
+  "name": "teonodec",
+  "version": "0.0.1",
+  "description": "Teonet node client CLI application",
+  "main": "./app/main.js",
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "teonet",
+    "network"
+  ],
+  "dependencies": {
+    "teonet-client": "^0.0.9"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "author": "<Kirill Scherba> <kirill@scherba.ru>",
+  "license": "<Apache-2>"
+}

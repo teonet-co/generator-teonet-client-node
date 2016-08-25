@@ -1,0 +1,25 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "main": "./app/main.js",
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<%= repository %>"
+  },
+  "keywords": [
+    "teonet",
+    "network"
+  ],
+  "dependencies": {
+    "teonet-client": "^0.0.9"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "author": "<%= author %> <<%= email %>>",
+  "license": "<%= license %>"
+}

@@ -1,4 +1,4 @@
-# generator-teonet-client-node [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-teonet-client-node [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Teonet client node application generator
 
 ## Installation
