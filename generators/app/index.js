@@ -116,6 +116,8 @@ module.exports = yeoman.Base.extend({
             license: this.props.license
         }
       );
+      
+      this.fs.delete(this.destinationPath('./_package.json'));
     }
   },
 
