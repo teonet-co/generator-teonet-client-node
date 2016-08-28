@@ -1,6 +1,6 @@
 {
   "name": "teonodec",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Teonet node client CLI application",
   "main": "./app/main.js",
   "scripts": {
