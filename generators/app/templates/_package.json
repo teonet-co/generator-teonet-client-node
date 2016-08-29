@@ -15,7 +15,7 @@
     "network"
   ],
   "dependencies": {
-    "teonet-client": "^0.0.9"
+    "teonet-client": "^0.0.10"
   },
   "devDependencies": {
     "mocha": "*"

@@ -1,6 +1,6 @@
 {
   "name": "teonodec",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Teonet node client CLI application",
   "main": "./app/main.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "network"
   ],
   "dependencies": {
-    "teonet-client": "^0.0.9"
+    "teonet-client": "^0.0.10"
   },
   "devDependencies": {
     "mocha": "*"

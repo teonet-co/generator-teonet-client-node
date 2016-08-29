@@ -7,6 +7,8 @@ try {
     var connector = teonetClient.connect('127.0.0.1', 9000);
     var snd = connector.login('my_name');
     console.log('Login Sent:', snd);
+    console.log('-------------------------------------------------------');
+    console.log('Recv:', connector.recv());
 
     console.log('Is Connected:', connector.is_connected());
 
