@@ -1,6 +1,6 @@
 {
   "name": "generator-teonet-client-node",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Teonet client node.js application generator",
   "homepage": "https://gitlab.ksproject.org/teonet/generator-teonet-client-node",
   "author": {
@@ -42,7 +42,10 @@
       "mocha": true
     }
   },
-  "repository": "/generator-teonet-client-node",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.ksproject.org/teonet/generator-teonet-client-node.git"
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
